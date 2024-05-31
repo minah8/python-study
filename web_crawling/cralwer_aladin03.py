@@ -78,4 +78,21 @@ with codecs.open(file_path, mode='w', encoding='utf-8') as f:
         del soup
         t.sleep(3)
 
+'''
+find(태그이름): 조건에 맞는 첫 번째 요소를 반환합니다.
+find_all(태그이름, class_=?? or id=??): 조건에 맞는 모든 요소를 리스트 형태로 반환합니다.
+select(선택자): CSS 선택자를 사용해 요소를 선택합니다.
+select_one(선택자): CSS 선택자를 사용해 첫 번째 요소를 선택합니다.
+find_parent(): 해당 요소의 부모 요소를 반환합니다. (직속 부모)
+find_parents(): 조건에 맞는 모든 부모 요소를 리스트 형태로 반환합니다.
+find_next_sibling(): 다음 형제 요소를 반환합니다.
+find_next_siblings(): 조건에 맞는 모든 다음 형제 요소를 리스트 형태로 반환합니다.
+find_previous_sibling(): 이전 형제 요소를 반환합니다.
+find_previous_siblings(): 조건에 맞는 모든 이전 형제 요소를 리스트 형태로 반환합니다.
+find_next: 다음 요소를 반환합니다.
+find_all_next: 조건에 맞는 모든 다음 요소를 리스트 형태로 반환합니다.
+find_previous: 이전 요소를 반환합니다.
+find_all_previous: 조건에 맞는 모든 이전 요소를 리스트 형태로 반환합니다.
+'''
+
 
